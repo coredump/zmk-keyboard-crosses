@@ -6,9 +6,9 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
-#include <layouts/gggw/crosses/fifty_four_layout.dtsi>
-#include <layouts/gggw/crosses/forty_two_layout.dtsi>
-#include <layouts/gggw/crosses/thirty_six_layout.dtsi>
+#include "fifty_four_layout.dtsi"
+#include "forty_two_layout.dtsi"
+#include "thirty_six_layout.dtsi"
 
 &gggw_crosses_54_layout {
   transform = <&default_transform>;
