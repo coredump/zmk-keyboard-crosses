@@ -6,7 +6,6 @@
 #include "crosses.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <input/processors/report_rate_limit.dtsi>
-#include <behaviors/rate_limit.dtsi>
 
 &default_transform {
   col-offset = <6>;
