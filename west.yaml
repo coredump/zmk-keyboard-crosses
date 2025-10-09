@@ -1,0 +1,8 @@
+manifest:
+  remotes:
+    - name: badjeff
+      url-base: https://github.com/badjeff
+  projects:
+    - name: zmk-input-processor-report-rate-limit
+      remote: badjeff
+      revision: main

@@ -1,4 +1,6 @@
 name: zmk-keyboard-crosses
 build:
+  depends:
+    - zmk-input-processor-report-rate-limit
   settings:
     board_root: .
