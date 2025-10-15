@@ -8,6 +8,8 @@ manifest:
     - name: zmk-pmw3610-driver
       remote: efogdev
       revision: main
+      path: modules/zmk/pmw3610-driver
     - name: zmk-input-processor-report-rate-limit
       remote: badjeff
       revision: main
+      path: modules/zmk/input-processor-report-rate-limit

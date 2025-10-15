@@ -2,5 +2,6 @@ name: zmk-keyboard-crosses
 build:
   depends:
     - zmk-input-processor-report-rate-limit
+    - zmk-pmw3610-driver
   settings:
     board_root: .
